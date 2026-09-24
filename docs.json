@@ -1,0 +1,137 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "AI 무료 교과서",
+  "description": "기초가 없어도 괜찮습니다. 돈 내지 않고 LLM 사용법을 처음부터 끝까지 배우는 곳",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "ko",
+        "default": true,
+        "tabs": [
+          {
+            "tab": "배우기",
+            "icon": "graduation-cap",
+            "groups": [
+              {
+                "group": "시작하기",
+                "icon": "flag",
+                "pages": [
+                  "index",
+                  "roadmap"
+                ]
+              },
+              {
+                "group": "0단계 · AI와 첫 만남",
+                "icon": "seedling",
+                "pages": [
+                  "basics/what-is-llm",
+                  "basics/services",
+                  "basics/signup",
+                  "basics/first-chat"
+                ]
+              },
+              {
+                "group": "1단계 · 대화의 기초",
+                "icon": "comments",
+                "pages": [
+                  "talk/asking-well",
+                  "talk/follow-up",
+                  "talk/files-and-images",
+                  "talk/voice"
+                ]
+              },
+              {
+                "group": "2단계 · 생활 속 활용",
+                "icon": "house",
+                "pages": [
+                  "daily/writing",
+                  "daily/summarize-translate",
+                  "daily/study",
+                  "daily/life",
+                  "daily/work"
+                ]
+              },
+              {
+                "group": "3단계 · 더 잘 쓰기",
+                "icon": "wand-magic-sparkles",
+                "pages": [
+                  "skills/give-context",
+                  "skills/examples",
+                  "skills/roles-and-format",
+                  "skills/break-down"
+                ]
+              },
+              {
+                "group": "4단계 · 꼭 알아야 할 주의사항",
+                "icon": "shield-halved",
+                "pages": [
+                  "safety/hallucination",
+                  "safety/privacy",
+                  "safety/copyright",
+                  "safety/spot-scams"
+                ]
+              },
+              {
+                "group": "5단계 · 한 걸음 더",
+                "icon": "stairs",
+                "pages": [
+                  "beyond/memory-and-projects",
+                  "beyond/research",
+                  "beyond/free-limits",
+                  "beyond/whats-next"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "자료실",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "자료실",
+                "pages": [
+                  "appendix/glossary",
+                  "appendix/prompt-library",
+                  "appendix/compare-services",
+                  "appendix/faq",
+                  "appendix/contribute"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "처음부터 배우기",
+      "href": "/basics/what-is-llm"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "안내",
+        "items": [
+          {
+            "label": "함께 만들기",
+            "href": "/appendix/contribute"
+          },
+          {
+            "label": "자주 묻는 질문",
+            "href": "/appendix/faq"
+          }
+        ]
+      }
+    ]
+  }
+}
