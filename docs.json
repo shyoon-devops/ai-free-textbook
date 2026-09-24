@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AI 무료 교과서",
-  "description": "기초가 없어도 괜찮습니다. 돈 내지 않고 LLM 사용법을 처음부터 끝까지 배우는 곳",
+  "description": "AI 챗봇, 어디서부터 시작할지 모르겠는 분들을 위한 안내서",
   "colors": {
     "primary": "#2563EB",
     "light": "#60A5FA",
